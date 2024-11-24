@@ -1,0 +1,76 @@
+.home-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #800080, #4B0082);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.connect-button {
+    background-color: #4B0082;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    width: 80%;
+    height: 200px;
+    background: rgba(128, 0, 128, 0.3);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-size: 1.1rem;
+    resize: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.continue-button {
+    background-color: #800080;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.connect-button:hover, .continue-button:hover {
+    opacity: 0.9;
+}
