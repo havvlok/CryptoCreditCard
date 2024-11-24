@@ -1,0 +1,117 @@
+.convert-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #800080, #4B0082);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.wallet-info {
+    background-color: #4B0082;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Left Side - User Details */
+.user-details {
+    flex: 1;
+    max-width: 500px;
+}
+
+.details-card {
+    background: rgba(147, 112, 219, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+.detail-item {
+    margin-bottom: 25px;
+}
+
+.detail-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.detail-item p {
+    font-size: 1.1rem;
+    word-break: break-all;
+}
+
+/* Right Side - Conversion Section */
+.conversion-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.conversion-card {
+    background: rgba(147, 112, 219, 0.3);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.conversion-card h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.conversion-input {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.conversion-input input {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background: white;
+}
+
+.convert-button {
+    background: #98FB98;
+    color: #4B0082;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.convert-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.convert-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
